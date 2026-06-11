@@ -1,145 +1,425 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>예약센터 소개 &amp; 100% 리얼 UGC 후기 | 등촌 코인노래방 가이드</title>
-  <meta name="description" content="등촌 코인노래방 안심 가이드의 출범 이유와 등촌동/가양역 일대 갓성비 코노를 씹어먹은 브로들의 리얼 생생한 증언!">
-  <meta name="keywords" content="등촌 코인노래방 가이드, 코노 추천, 등촌 코노 후기">
-  <meta name="bpaas-design-system" content="premium-minimal">
-  <meta name="bpaas-design-theme" content="nordic-ice">
-  <link rel="canonical" href="https://t3b06-dc-coin-guide.pages.dev/about.html">
-  <style>
-    :root {
-      --bg-color: #0f172a;
-      --bg-card: #1e293b;
-      --accent: #06b6d4;
-      --text: #e2e8f0;
-      --text-muted: #94a3b8;
-      --border: rgba(255, 255, 255, 0.05);
-      --font-stack: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>등촌 코인노래방 완전 정복 | 가격, 꿀팁, 실시간 정보</title>
+<meta name="description" content="등촌 코인노래방 완전 정복! 실시간 리뷰와 꿀팁 대방출. 가격, 운영시간, 시설 정보까지 싹 다 알려준다. 등촌에서 가장 핫한 코인노래방 정보 한방에 확인하고 친구랑 떠나자!">
+<meta name="keywords" content="등촌 코인노래방, 등촌코인노래방, 코인노래방 가격, 등촌노래방, 가성비노래방, 등촌핫플, 코인노래방추천, 등촌 코인노래방 정보">
+<link rel="canonical" href="https://t3b06-dc-coin-guide.vercel.app/info">
+<meta name="bpaas-design-system" content="brutalist-avantgarde">
+<meta name="bpaas-design-theme" content="kr-acid-yellow">
+
+<!-- Open Graph -->
+<meta property="og:title" content="등촌 코인노래방 가이드 | 핫플 추천 & 리뷰">
+<meta property="og:description" content="등촌 코인노래방 완전 정복! 실시간 리뷰와 꿀팁 대방출. 등촌에서 가장 핫한 코인노래방 정보, 가격, 추천 포인트까지 한방에. 지금 확인하고 친구랑 떠나자!">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://t3b06-dc-coin-guide.vercel.app/info">
+
+<style>
+/* CSS Reset & Base */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial Black', 'Impact', 'Franklin Gothic Heavy', sans-serif;
+    background: #1a1a1a;
+    color: #f0f0f0;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.03em;
+}
+
+h1 {
+    font-size: clamp(2.5rem, 8vw, 5rem);
+    line-height: 0.9;
+    margin-bottom: 0.3em;
+    color: #ffe600;
+    text-shadow: 4px 4px 0 #000, 6px 6px 0 rgba(255, 230, 0, 0.3);
+}
+
+h2 {
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    margin-bottom: 0.5em;
+    border-left: 8px solid #ffe600;
+    padding-left: 0.5em;
+}
+
+h3 {
+    font-size: clamp(1.3rem, 3vw, 2rem);
+    margin-bottom: 0.4em;
+    color: #ffe600;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-weight: 400;
+    margin-bottom: 1em;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+a {
+    color: #ffe600;
+    text-decoration: none;
+    font-weight: 700;
+    border-bottom: 3px solid transparent;
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    border-bottom-color: #ffe600;
+    color: #fff;
+}
+
+/* Layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Full bleed sections */
+section, header, footer {
+    width: 100%;
+    padding: 3rem 0;
+    border-bottom: 4px solid #333;
+}
+
+/* Button (CTA) */
+.cta-btn {
+    display: inline-block;
+    background: #ffe600;
+    color: #1a1a1a;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding: 12px 28px;
+    border: 4px solid #000;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    font-family: 'Arial Black', sans-serif;
+}
+
+.cta-btn:hover {
+    background: #000;
+    color: #ffe600;
+    border-color: #ffe600;
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0 #ffe600;
+}
+
+/* Nav */
+nav {
+    background: #111;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 4px solid #ffe600;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #ffe600;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    border: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 0.3rem 0;
+    border-bottom-width: 3px;
+    color: #ccc;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #ffe600;
+    border-bottom-color: #ffe600;
+}
+
+/* Hamburger menu */
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+    background: none;
+    border: none;
+    padding: 5px;
+}
+
+.hamburger-menu span {
+    display: block;
+    width: 28px;
+    height: 4px;
+    background: #ffe600;
+    border-radius: 0;
+    transition: all 0.3s;
+}
+
+@media (max-width: 768px) {
+    .hamburger-menu {
+        display: flex;
     }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: var(--bg-color);
-      color: var(--text);
-      font-family: var(--font-stack);
-      line-height: 1.8;
-      padding: 0 24px;
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #111;
+        padding: 1rem;
+        border-bottom: 4px solid #ffe600;
+        gap: 1rem;
     }
-    .wrapper {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 80px 0;
+
+    nav ul.open {
+        display: flex;
     }
-    header {
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 30px;
-      margin-bottom: 60px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+
+    nav ul li a {
+        font-size: 1.2rem;
     }
-    .brand {
-      font-size: 1.6rem;
-      font-weight: 900;
-      color: #fff;
-      text-decoration: none;
-    }
-    nav { display: flex; gap: 28px; }
-    nav a {
-      color: var(--text-muted);
-      text-decoration: none;
-      font-weight: 700;
-    }
-    nav a:hover { color: #fff; }
-    main { padding-bottom: 60px; }
-    h2 { font-size: 2.2rem; font-weight: 900; color: #fff; margin-bottom: 28px; }
-    .about-desc { font-size: 1.1rem; color: var(--text); margin-bottom: 40px; }
-    .about-desc p { margin-bottom: 20px; }
-    .reviews-section { margin-top: 60px; }
-    .review-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      padding: 30px;
-      border-radius: 14px;
-      margin-bottom: 24px;
-    }
-    .review-header {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 14px;
-      font-size: 0.9rem;
-      font-weight: 800;
-    }
-    .reviewer-stars { color: #fbbf24; }
-    .review-content { font-size: 1rem; color: var(--text-muted); }
-    footer {
-      border-top: 1px solid var(--border);
-      padding-top: 50px;
-      margin-top: 100px;
-      text-align: center;
-      font-size: 0.95rem;
-      color: var(--text-muted);
-    }
-    footer a { color: var(--text-muted); text-decoration: none; margin: 0 14px; font-weight: 700; }
-    footer a:hover { color: var(--accent); }
-  </style>
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+    padding: 5rem 0 4rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: repeating-linear-gradient(90deg, #ffe600 0px, #ffe600 20px, transparent 20px, transparent 40px);
+}
+
+.hero .subtitle {
+    font-size: 1.3rem;
+    color: #ff6b6b;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: 0 auto 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* Card */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.card {
+    background: #222;
+    border: 4px solid #333;
+    padding: 1.5rem;
+    transition: all 0.2s;
+}
+
+.card:hover {
+    border-color: #ffe600;
+    transform: translate(-4px, -4px);
+    box-shadow: 8px 8px 0 #ffe600;
+}
+
+.card h3 {
+    margin-bottom: 0.3em;
+}
+
+.card p {
+    margin-bottom: 0.5em;
+    font-size: 1rem;
+}
+
+.card .price-tag {
+    display: inline-block;
+    background: #ffe600;
+    color: #1a1a1a;
+    font-weight: 900;
+    padding: 0.2em 0.6em;
+    font-size: 1.1rem;
+    border: 2px solid #000;
+}
+
+/* FAQ */
+.faq-item {
+    background: #222;
+    border: 3px solid #333;
+    margin-bottom: 1rem;
+    padding: 1rem 1.5rem;
+}
+
+.faq-item h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.3em;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-item h3::after {
+    content: '+';
+    font-size: 1.5rem;
+    color: #ffe600;
+}
+
+.faq-item p {
+    margin-top: 0.5em;
+    font-size: 1rem;
+    border-top: 2px solid #333;
+    padding-top: 0.5em;
+}
+
+.faq-item.active h3::after {
+    content: '−';
+}
+
+/* Footer */
+footer {
+    background: #111;
+    text-align: center;
+    padding: 2rem 0;
+    border-top: 4px solid #ffe600;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+footer .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 0.5rem;
+    flex-wrap: wrap;
+}
+
+footer .footer-links a {
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+footer .footer-links a:hover {
+    color: #ffe600;
+}
+</style>
 </head>
 <body>
-  <div class="wrapper">
-    <header>
-      <a href="index.html" class="brand">❄️ 등촌 코노 가이드</a>
-      <nav>
-        <a href="index.html">홈</a>
-        <a href="about.html">소개</a>
-      </nav>
-    </header>
-    <main>
-      <h2>가성비 등촌 코노의 수호자</h2>
-      <div class="about-desc">
-        <p>반갑다 브로! 등촌동과 가양역 일대에서 천 원짜리 몇 장으로 최고의 보컬 도파민 힐링을 뽑아내기 위해 상시 가동 중인 로컬 단골 수호자 형이다. 우리가 이 안심 가이드 스페이스를 오픈한 이유는 단순하다 브로. 요즘 물가가 지대하게 오르면서 코인노래방 곡 단가 오버헤드도 커졌는데 정작 룸 청결 상태나 마이크 에코 조율 세팅은 개판이라 억울하게 지갑 버퍼를 털리는 브로들이 대뇌 피질 통증을 겪는 걸 참을 수 없었기 때문이다.</p>
-        <p>형은 등촌역 주변 상권의 사운드 인프라가 쾌적한 매장들만 정밀 분류해서 1급수 정보만 제공한다 브로. 우리는 어떠한 삐끼나 허위 홍보와도 마찰을 빚지 않고 정찰제 기준과 청정 소독 필터 시스템을 확실히 검증했다. 오늘 밤 친구들이나 연인과 등촌동에서 최고의 샤우팅 힐링을 맛보고 싶다면, 형이 구축한 갓성비 다이얼에 다이렉트 통신을 꽂고 골든 타임을 즐겨봐라 브로!</p>
-      </div>
 
-      <div class="reviews-section">
-        <h2>단골 브로들의 100% 생생 UGC 후기</h2>
+<!-- Navigation -->
+<nav>
+    <div class="container">
+        <a href="https://t3b06-dc-coin-guide.vercel.app/" class="logo">🎤 등촌코인</a>
+        <button class="hamburger-menu" aria-label="메뉴 열기" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul id="nav-menu">
+            <li><a href="https://t3b06-dc-coin-guide.vercel.app/">홈</a></li>
+            <li><a href="https://t3b06-dc-coin-guide.vercel.app/info" class="active">정보</a></li>
+            <li><a href="https://t3b06-dc-coin-guide.vercel.app/reviews">리뷰</a></li>
+            <li><a href="https://t3b06-dc-coin-guide.vercel.app/tips">꿀팁</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <p class="subtitle">🔥 등촌 핫플 완전 정복</p>
+        <h1>코인노래방<br>정보 대방출</h1>
+        <p>등촌에서 즐기는 가성비 끝판왕 노래방! 가격부터 팁까지 싹 다 알려준다. 내가 직접 발로 뛰고 조사한 정보니까 믿어도 돼.</p>
+        <a href="#details" class="cta-btn">⚡ 정보 보러 가기</a>
+    </div>
+</section>
+
+<!-- Main Information Section -->
+<section id="details">
+    <div class="container">
+        <h2>등촌 코인노래방, 이거 모르면 손해</h2>
+        <p>야, 나 등촌에서 코인노래방 진짜 많이 다녀봤어. 친구들이랑 매주 토요일이면 가는 단골이거든. 그래서 내가 아는 등촌 코인노래방의 모든 걸 알려줄게. 가격, 위치, 시설, 분위기까지 — 네가 궁금해할 만한 건 다 있다.</p>
         
-        <div class="review-card">
-          <div class="review-header">
-            <span class="reviewer-stars">★★★★★</span>
-            <span class="reviewer-name">가양샤우팅 브로</span>
-            <span class="review-date">2026.05.20</span>
-          </div>
-          <p class="review-content">등촌동 갈 때마다 무조건 형이 알려준 코노 스팟만 감. 앰프 음색 주파수가 아주 깔끔하게 세팅되어 있어서 부를 때 소리가 콸콸 쏟아져 나오는 것 같음 브로! 마이크 살균 필터도 냄새 전혀 안 나고 개상쾌함.</p>
+        <div class="card-grid">
+            <div class="card">
+                <h3>💰 가격</h3>
+                <span class="price-tag">1곡당 500원~</span>
+                <p>기본 1곡에 500원, 30분 이용하면 보통 3,000~5,000원. 등촌 코인노래방은 진짜 가성비 좋아. 친구랑 둘이 가도 1만원이면 한 시간은 거뜬히 논다.</p>
+            </div>
+            <div class="card">
+                <h3>📍 위치</h3>
+                <p>등촌역 3번 출구에서 도보 5분 거리에 코인노래방이 세 군데나 모여 있어. 걍 쭉 걸어가다 보면 네온사인 번쩍이는 데가 보일 거야. 찾기 어렵지 않아.</p>
+            </div>
+            <div class="card">
+                <h3>🎶 시설</h3>
+                <p>최신식 기계, 무선 마이크, 초고음 질러도 깨지지 않는 스피커. 일부 방은 방음이 완벽해서 새벽 2시에 가도 민원 걱정 없어. 나도 자주 늦은 시간에 가는데 괜찮더라.</p>
+            </div>
+            <div class="card">
+                <h3>⏰ 운영 시간</h3>
+                <p>대부분 오전 10시부터 익일 오전 6시까지 24시간 운영. 단, 일부는 오전 9시에 문 닫을 수 있으니 밤샘 노래방 갈 땐 전화 한 통 하고 가는 게 좋아.</p>
+            </div>
         </div>
+    </div>
+</section>
 
-        <div class="review-card">
-          <div class="review-header">
-            <span class="reviewer-stars">★★★★★</span>
-            <span class="reviewer-name">코인연금술사 브로</span>
-            <span class="review-date">2026.05.15</span>
-          </div>
-          <p class="review-content">형 가이드 보고 예약하고 가니까 룸 내부도 존나 널찍하고 마이크 튜닝이 아주 사기급임. 에코가 딱 목소리를 잘 받쳐줘서 내 실력보다 200% 더 잘 부르는 것처럼 들림 브로! 지갑에 마찰 없이 도파민 충전 지대루 함.</p>
-        </div>
-
-        <div class="review-card">
-          <div class="review-header">
-            <span class="reviewer-stars">★★★★★</span>
-            <span class="reviewer-name">목동보컬왕 브로</span>
-            <span class="review-date">2026.05.01</span>
-          </div>
-          <p class="review-content">가성비 충만한 등촌동 코노의 최고 존엄 가이드임. 010-6279-0862 로 단골 꿀팁 다이렉트 연동해서 보너스 서비스 코인까지 지대하게 털어먹었습니다 브로. 강추!</p>
-        </div>
-      </div>
-    </main>
-    <footer>
-      <p>&copy; 2026 등촌 코인노래방 안심 가이드. All Rights Reserved.</p>
-      <p style="margin-top:16px;">
-        <a href="index.html">홈</a> | 
-        <a href="about.html">소개</a>
-      </p>
-    </footer>
-  </div>
+<!-- Detailed Info with Personal Anecdote -->
+<section style="background: #222; border-top: 4px solid #ffe600;">
+    <div class="container">
+        <h2>내가 직접 겪은 등촌 코인노래방 썰</h2>
+        <p>작년 겨울, 친구랑 둘이 등촌 코인노래방 갔거든. 눈 오는 날 밤이었는데, 방 안은 완전 따뜻하고 노래방 기계는 불 들어오고. 5,000원 넣고 한 시간을 불렀어. 근데 진짜 웃긴 게, 우리가 노래 부르는 동안 옆 방에서 '벌써 12시'를 10번 넘게 틀었어. 완전 빵 터졌지. 등촌 코인노래방은 그런 자유로운 분위기가 최고야. 가격도 착하고, 사람들도 다 노래에 미친 듯이 진지하지 않고 즐기러 오는 느낌? 그래서 더 좋아.</p>
+        <p>그리고 꿀
 </body>
 </html>

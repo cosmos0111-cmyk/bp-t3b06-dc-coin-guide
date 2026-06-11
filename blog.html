@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>등촌 코인노래방 가이드 | 블로그</title>
+    <meta name="description" content="등촌 코인노래방 완전 정복! 실시간 리뷰와 꿀팁 대방출. 등촌에서 가장 핫한 코인노래방 정보, 가격, 추천 포인트까지 한방에. 지금 확인하고 친구랑 떠나자!">
+    <meta name="keywords" content="등촌 코인노래방, 등촌코인노래방, 코인노래방, 등촌노래방, 가성비노래방, 등촌핫플, 코인노래방추천">
+    <link rel="canonical" href="https://t3b06-dc-coin-guide.vercel.app/">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-acid-yellow">
+    <!-- Open Graph -->
+    <meta property="og:title" content="등촌 코인노래방 가이드 | 블로그">
+    <meta property="og:description" content="등촌 코인노래방 완전 정복! 실시간 리뷰와 꿀팁 대방출. 등촌에서 가장 핫한 코인노래방 정보, 가격, 추천 포인트까지 한방에. 지금 확인하고 친구랑 떠나자!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://t3b06-dc-coin-guide.vercel.app/">
+    <meta property="og:locale" content="ko_KR">
+    <meta property="og:site_name" content="등촌 코인노래방 가이드">
+    <style>
+        /* CSS Reset & Base */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f5f0e0;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+        }
+        h1 {
+            font-size: 2.5rem;
+            line-height: 1.1;
+            margin-bottom: 1rem;
+            border-bottom: 4px solid #000;
+            padding-bottom: 0.5rem;
+        }
+        h2 {
+            font-size: 2rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        h3 {
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+        p {
+            margin-bottom: 1rem;
+        }
+        a {
+            color: #1a1a1a;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            transition: color 0.2s;
+        }
+        a:hover {
+            color: #e6c200;
+        }
+        /* Layout */
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        /* Full bleed sections */
+        section, header, footer {
+            width: 100%;
+        }
+        /* Button (CTA) */
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 2rem;
+            background-color: #000;
+            color: #f5f0e0;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            border: 3px solid #000;
+            cursor: pointer;
+            transition: background-color 0.2s, color 0.2s;
+        }
+        .btn:hover {
+            background-color: #e6c200;
+            color: #000;
+        }
+        /* Navigation */
+        .nav-present {
+            background-color: #000;
+            color: #f5f0e0;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .nav-present .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .nav-present .logo {
+            font-size: 1.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #f5f0e0;
+            text-decoration: none;
+        }
+        .nav-present .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        .nav-present .nav-links a {
+            color: #f5f0e0;
+            text-decoration: none;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+        .nav-present .nav-links a:hover {
+            color: #e6c200;
+        }
+        /* Hamburger menu */
+        .hamburger-menu {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0.5rem;
+            z-index: 101;
+        }
+        .hamburger-menu span {
+            display: block;
+            width: 25px;
+            height: 3px;
+            background-color: #f5f0e0;
+            margin: 5px 0;
+            transition: transform 0.3s;
+        }
+        /* Responsive 768px */
+        @media (max-width: 768px) {
+            .nav-present .nav-links {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background-color: #000;
+                padding: 1rem 0;
+                text-align: center;
+            }
+            .nav-present .nav-links.active {
+                display: flex;
+            }
+            .hamburger-menu {
+                display: block;
+            }
+            .container {
+                padding: 0 1rem;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+        /* Blog specific */
+        .blog-post {
+            background-color: #fff;
+            border: 4px solid #000;
+            padding: 2rem;
+            margin: 2rem 0;
+            box-shadow: 6px 6px 0 rgba(0,0,0,0.1);
+        }
+        .blog-post .meta {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            color: #666;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #e6c200;
+            padding-bottom: 0.5rem;
+        }
+        .blog-post .content p:first-of-type::first-letter {
+            font-size: 3rem;
+            font-weight: 900;
+            float: left;
+            margin-right: 0.5rem;
+            line-height: 1;
+            border: 2px solid #000;
+            padding: 0.25rem 0.5rem;
+            background-color: #e6c200;
+            color: #000;
+        }
+        .blog-post blockquote {
+            border-left: 8px solid #e6c200;
+            padding: 1rem 1.5rem;
+            margin: 1.5rem 0;
+            background-color: #f9f5e8;
+            font-style: italic;
+        }
+        .blog-post ul {
+            margin: 1rem 0 1rem 1.5rem;
+            list-style: square;
+        }
+        .blog-post li {
+            margin-bottom: 0.5rem;
+        }
+        /* Footer */
+        footer {
+            background-color: #000;
+            color: #f5f0e0;
+            padding: 2rem 0;
+            margin-top: 3rem;
+            text-align: center;
+        }
+        footer a {
+            color: #e6c200;
+        }
+    </style>
+</head>
+<body>
+    <header class="nav-present">
+        <div class="container">
+            <a href="/" class="logo">🎤 등촌코인</a>
+            <nav>
+                <button class="hamburger-menu" aria-label="메뉴 열기">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="/">홈</a></li>
+                    <li><a href="/blog">블로그</a></li>
+                    <li><a href="/price">가격표</a></li>
+                    <li><a href="/review">리뷰</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <article class="blog-post">
+            <div class="meta">
+                <time datetime="2025-07-16">2025년 7월 16일</time> · 등촌코인노래방 길잡이
+            </div>
+            <h1>등촌 코인노래방 완전 정복! 내돈내산 실전 꿀팁 대방출</h1>
+            <div class="content">
+                <p>
+                    야, 형! 요즘 등촌에서 코인노래방이 엄청 핫하다는 거 알고 있었어? 나도 솔직히 “노래방이 다 똑같지” 하고 넘겼는데, 진짜 각이 다르더라고. 지난주에 친구랑 둘이서 등촌역 근처 코인노래방을 네 군데나 돌아다녀 봤어. 2시간 동안 3천 원? 말이 돼? 근데 진짜 돼, 형. 자, 내가 직접 발로 뛰고 겪은 꿀팁을 다 풀어줄게.
+                </p>
+                <p>
+                    첫 번째로 간 곳은 등촌역 3번 출구에서 5분 거리에 있는 ‘노래창고’. 간판이 완전 빈티지 브루탈리스트 감성이라서 딱 우리 스타일이잖아. 들어가니까 부스가 10개 정도 되고, 방음도 생각보다 괜찮았어. 근데 문제는 마이크가 살짝 헤드셋이었는데, 적응하는데 10분 걸렸어. 그래도 30분에 천 원이면 가성비 끝판왕 아니야? 형이 만약 헤드셋 마이크에 거부감 없으면 여기 강추.
+                </p>
+                <blockquote>
+                    “내 기준 등촌 NO.1은 단연 ‘코인라운지’야. 방음도 미쳤고, 노래방 리모콘이 진짜 편해. 거기다 직원분이 주는 별미 과자도 있더라고.”
+                </blockquote>
+                <p>
+                    두 번째로 간 ‘코인라운지’는 내 취향 저격이었어. 등촌동 먹자골목 안쪽에 있어서 위치도 좋고, 주차는 좀 빡빡한데 대중교통으로 오면 개꿀. 여기는 무조건 30분 단위로 끊었을 때 효율이 좋아. 1시간에 2천 원, 2시간에 3천 5백 원인데, 1시간씩 두 번 끊으면 4천 원이거든. 꼭 30분+30분 으로 가자. 그리고 복도에 거울이 있어서 셀카 찍기도 좋아. 형, 우리 다음에 여기 가면 ‘그 노래’ 꼭 부르자.
+                </p>
+                <p>
+                    세 번째는 ‘금요일밤’이라는 곳이었는데, 여긴 인테리어가 좀 올드해서 호불호가 갈릴 것 같아. 근데 가격이 가장 저렴했어! 30분에 800원, 1시간
+</body>
+</html>
